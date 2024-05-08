@@ -1,29 +1,43 @@
 
 
-section > pre {
-   white-space: pré-line;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kaushan+Script&family=Madimi+One&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+
+:root {
+   --font1: Verdana, Geneva, Tahoma, sans-serif;
+   --font2: 'Passion One', cursive;
+   --font3: 'Sriracha', cursive;
 }
+
+
+
 
 * {
    margin: 0px;
    padding: 0px;
+   font-size: 1em;
 }
 
 html, body {
+   font-family: var(--font1);
    min-height: 100vh;
    background-color: darkgray;
 }
 
 header {
+   font-family: var(--font2);
    background-color: black;
    color: white;
    text-align: center;
 }
 
 header > h1 {
+   font-family:  var(--font2);
    padding-top: 50px;
    font-variant: small-caps;
     padding-bottom: 50px;
+    font-size: 4em;
    }
 
 
@@ -37,23 +51,32 @@ header > h1 {
    text-decoration: underline;
 }
 
-section {
+
+
+section > p{
+   font-family: var(--font3);
    padding-top: 10vh;
    padding-bottom: 10vh;
    line-height: 2em;
    padding-left: 30px;
+   font-size: 3vw;
+
 
 }
+
+
 
 section.normal {
    background-color: white;
    color: black;
 }
 
-section.imagem {
+section.imagem > p {
    width: 400px;
    background-color: rgba(51,51,51);
    color: white;
+   display: inline-block;
+   padding: 5px;
 }
 
 
