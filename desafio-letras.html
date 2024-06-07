@@ -1,0 +1,117 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+         border: solid red;
+         /* width: 300px; */
+         /* height: 300px; */
+         font-weight: bold;
+         border-collapse: collapse;
+         margin: 20px;
+         
+      }
+      tr, td{
+         border: solid salmon;
+         padding: 10px;
+         text-align: center;
+      }
+      .a, .b {
+         background-color: red;
+      }
+      [d]{
+         background-color: blue;
+      }
+      [purple] {
+         background-color: purple;
+      }
+      [rosinha] {
+         background-color: #fc0fc0;
+      }
+      [blue] { background: blue; }
+      [yellow] { background: yellow; }
+      [red] { background: red; }
+      [pink] { background: pink; }
+      [purple] { background: purple; }
+      [green] { background: green; }
+      [light-red] { background: #f33; }
+      [blue] { background: blue; }
+   </style>
+</head>
+<body>
+   <table>
+     <tr>
+      <td class="a" colspan="4">A </td>
+      <td class="b" rowspan="4">B </td>
+     </tr>
+     <tr>
+      <td rowspan="4">C </td>
+      <td d >D </td>
+      <td>E </td>
+      <td>F</td>
+     </tr>
+     <tr>
+      <td>G </td>
+      <td>H </td>
+      <td>I</td>
+     </tr>
+     <tr>
+      <td purple >J </td>
+      <td>L </td>
+      <td>M</td>
+     </tr>
+     <tr>
+      <td rosinha colspan="4">N</td>
+     </tr>
+
+   </table>
+
+   <table>
+      <tr>
+         <td colspan="4">A </td>
+         <td rowspan="4">B </td>
+      </tr>
+      <tr>
+         <td rowspan="4">C </td>
+         <td>D </td>
+         <td>E </td>
+         <td>F </td>
+      </tr>
+      <tr>
+         <td>G </td>
+         <td>H </td>
+         <td>I </td>
+      </tr>
+      <tr>
+         <td>J </td>
+         <td>L </td>
+         <td>M </td>
+      </tr>
+      <tr>
+         <td colspan="4">N </td>
+      </tr>
+   </table>
+
+   <table>
+      <tr>
+         <td blue>B </td>
+         <td yellow>E </td>
+         <td red>R </td>
+         <td pink>N </td>
+         <td purple>A </td>
+         <td red>R </td>
+         <td green>D </td>
+         <td light-red>O</td>
+      </tr>
+   </table>
+</body>
+</html>

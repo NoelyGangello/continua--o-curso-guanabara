@@ -18,3 +18,14 @@ td = dados >
 
 text align center = alinhamento horizontal
 vertical align = alinhamento vertical
+
+
+ANATOMIA PARA TABELAS GRANDES
+TABLE
+CAPTION = LEGENDA
+THEAD
+TR, TD, TH
+TBODY
+TR, TD,TD
+TFOOT
+TR, TD,TH

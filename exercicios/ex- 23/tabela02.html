@@ -1,0 +1,198 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>tabelas</title>
+   <style>
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      table {
+         width: 500px;
+         border-collapse: collapse;
+         position: relative;
+      }
+      caption {
+         font-size: 1.5em;
+         font-weight: bold;
+         padding: 10px;
+         background-color: lightgrey;
+      }
+      td, th{
+         border: 1px solid black;
+         padding: 10px;
+      }
+      thead, tfoot {
+         background-color: gray;
+         color: white;
+
+      }
+
+      thead > tr > th {
+         position: sticky;
+         top: -1px;
+         background-color: gray;
+      }
+      tbody > tr:nth-child(even) {
+         background-color: red;
+      }
+
+      tbody > tr:nth-child(odd) {
+         background-color: darkcyan;
+
+      }
+
+      td.num {
+         text-align: right;
+      }
+      
+   </style>
+</head>
+<body>
+   <h1>
+      Uso de tabelas grandes
+   </h1>
+
+   <table>
+      <caption>
+         População das unidadas federativas
+      </caption>
+      <thead>
+         <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>São Paulo</td>
+            <td class="num">45 919 049</td>
+         </tr>
+         <tr>
+            <td>Minas Gerais</td>
+            <td class="num">21 168 791</td>
+         </tr>
+         <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num">17 264 943</td>
+         </tr>
+         <tr>
+            <td>Bahia</td>
+            <td class="num">14. 873 064</td>
+         </tr>
+         <tr>
+            <td>Paraná</td>
+            <td class="num">11 433 8955</td>
+         </tr>
+         <tr>
+            <td>
+               Rio Grande Do Sul
+            </td>
+            <td class="num">0055555</td>
+         </tr>
+         <tr>
+            <td>
+               Pernambuco
+            </td>
+            <td class="num">8888888</td>
+         </tr>
+         <tr>
+            <td>
+               Ceará
+            </td>
+            <td class="num">77777</td>
+         </tr>
+         <tr>
+            <td>Pará</td>
+            <td class="num">7777888</td>
+         </tr>
+         <tr>
+            <td>Santa catarina</td>
+            <td class="num">99999</td>
+         </tr>
+         <tr>
+            <td>Maranhão</td>
+            <td class="num">99999</td>
+         </tr>
+         <tr>
+            <td>Goiás</td>
+            <td class="num">99999</td>
+         </tr>
+         <tr>
+            <td>Amazonas</td>
+            <td class="num">888888</td>
+         </tr>
+         <tr>
+            <td>Espirito santo</td>
+            <td class="num">88880000</td>
+         </tr>
+         <tr>
+            <td>Paraíba</td>
+            <td class="num">77777</td>
+         </tr>
+         <tr>
+            <td>Rio grande do norte</td>
+            <td class="num">99999</td>
+         </tr>
+         <tr>
+            <td>Mato grosso</td>
+            <td class="num">8888</td>
+         </tr>
+         <tr>
+            <td>Alagoas</td>
+            <td class="num">722222</td>
+         </tr>
+         <tr>
+            <td>Piauí</td>
+            <td class="num">888888</td>
+         </tr>
+         <tr>
+            <td>Distrito federal</td>
+            <td class="num">77777</td>
+         </tr>
+         <tr>
+            <td>Mato grosso do sul</td>
+            <td class="num">22222</td>
+         </tr>
+         <tr>
+            <td>Sergipe</td>
+            <td class="num">88888</td>
+         </tr>
+         <tr>
+            <td>Rondônia</td>
+            <td class="num">2222</td>
+         </tr>
+         <tr>
+            <td>Tocantins</td>
+            <td class="num">8888</td>
+         </tr>
+         <tr>
+            <td>Acre</td>
+            <td class="num">222222</td>
+         </tr>
+         <tr>
+            <td>Amapá</td>
+            <td class="num">88888</td>
+         </tr>
+         <tr>
+            <td>Roraima</td>
+            <td class="num">888888</td>
+         </tr>
+      </tbody>
+      <tfoot>
+         <tr>
+            <th>Total de habitantes</th>
+            <td class="num">
+               <strong>
+                  210 147 125
+               </strong>
+            </td>
+         </tr>
+      </tfoot>
+      
+   </table>
+</body>
+</html>
