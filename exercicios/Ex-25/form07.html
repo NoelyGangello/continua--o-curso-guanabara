@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Formulario</title>
+   <style>
+      body {
+         background-color: burlywood;
+      }
+
+      textarea {
+         background-color: #fc0fc0;
+         border: solid black;
+      }
+      #rosa {
+         background-color: pink;
+      }
+   </style>
+</head>
+<body>
+   <form action="cadastro.php" method="POST" autocomplete="on">
+      <p>
+         <label for="estado">Estado</label>
+         <select name="estado" id="estado">
+            <option value="" selected>--- Escolha ---</option>
+           <optgroup label="Região Sudeste">
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de janeiro</option>
+            <option value="SP">São paulo</option>
+           </optgroup>
+
+           <optgroup label="Região Nordeste">
+            <option value="MA">Maranhão</option>
+            <option value="PE">Pernambuco</option>
+            <option value="RN">Rio Grande do norte</option>
+           </optgroup>
+         </select>
+      </p>
+
+      <p>
+         <label for="prof">Profissao:</label>
+         <input type="text" name="prof" id="prof" list="lista-prof">
+         <datalist id="lista-prof">
+            <option value="ADM">Administrador</option>
+            <option value="CONT">Contabilista</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="PROF">Professor</option>
+         </datalist>
+
+         <p>
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg" cols="30" rows="10" ></textarea>
+         </p>
+
+      </p>
+
+      <p>
+        <input id="rosa" type="submit" value="Enviar">
+        <input id="rosa" type="reset" value="Limpar">
+      </p>
+   </form>
+</body>
+</html>
