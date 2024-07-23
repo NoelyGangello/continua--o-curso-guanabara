@@ -91,3 +91,9 @@ Grandes telas: Acima de 1200px
 
    /* Grandes telas */
 }
+
+
+
+O que é um Break-point no contexto de Media Queries?
+Media Queries e breakpoints: projetando melhor experiência
+O que são os Breakpoints? Os breakpoints, literalmente falando, são pontos de interrupção. Analisando pelo contexto da CSS, Media Query e Mobile First, são os pontos que a interface do usuário será adaptada para a nova realidade do tamanho de tela, ou densidade de pixels, por exemplo.
